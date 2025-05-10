@@ -66,7 +66,7 @@ export default function UnitConverter() {
 	const unitOptions = Object.keys(unitData[category]);
 
 	return (
-		<div className="p-4 rounded-xl shadow-md max-w-md mx-auto mt-10 bg-white">
+		<div className="p-4 rounded-xl shadow-md max-w-sm w-md mt-10 bg-white/30 backdrop-blur-sm border border-white/30">
 			<h2 className="text-xl font-bold mb-4">Unit Converter</h2>
 
 			<label className="block mb-2">Select Category:</label>
